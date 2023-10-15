@@ -1,3 +1,5 @@
+package excercise2;
+
 import javax.swing.*;
 
 public class FirstDialog {
