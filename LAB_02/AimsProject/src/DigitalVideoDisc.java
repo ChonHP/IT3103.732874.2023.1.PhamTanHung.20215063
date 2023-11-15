@@ -1,3 +1,4 @@
+
 public class DigitalVideoDisc {
     private String title;
     private String category;
@@ -83,4 +84,4 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
-}
+

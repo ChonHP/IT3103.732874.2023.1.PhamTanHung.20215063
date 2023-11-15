@@ -1,4 +1,5 @@
-public class Cart {
+
+ public class Cart {
     public static final int MAX_NUMBERS_ORDERED=20;
     private DigitalVideoDisc itemsOrdered[]=new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
     private int qtyOrdered = 0;
@@ -81,4 +82,5 @@ public class Cart {
         }
         System.out.printf("%5s%-30s%.2f"," ","Total Cost",totalCost());
     }
-}
+ }
+
