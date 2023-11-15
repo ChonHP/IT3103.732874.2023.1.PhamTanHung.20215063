@@ -1,3 +1,7 @@
+package aims;
+
+import cart.Cart;
+import disc.DigitalVideoDisc;
 
 public class Aims {
     public static void main(String[] args) {
@@ -16,5 +20,4 @@ public class Aims {
         anOrder.addDigitalVideoDisc(dvd1,dvd2);
         anOrder.displayCart();
     }
-    }
-
+}

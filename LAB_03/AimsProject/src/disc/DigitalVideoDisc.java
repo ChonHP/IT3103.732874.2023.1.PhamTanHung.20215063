@@ -1,3 +1,4 @@
+package disc;
 
 public class DigitalVideoDisc {
     private String title;
@@ -84,4 +85,19 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
+    public boolean isMatch(String title) {
 
+        String[] titleSplit = this.title.split(" ");
+        String[] enterTitleSplit = title.split(" ");
+
+        boolean match = true;
+
+        for(int i=0; i<titleSplit.length; i++) {
+            if(!titleSplit[i].equalsIgnoreCase(enterTitleSplit[i])) {
+                match = false;
+                break;
+            }
+        }
+        return match;
+    }
+}

@@ -1,3 +1,6 @@
+package testdisc;
+
+import disc.DigitalVideoDisc;
 
 public class TestPassingParameter
 {
@@ -23,3 +26,4 @@ public class TestPassingParameter
         dvd.setTitle(title);
         dvd = new DigitalVideoDisc(oldTitle);
     }
+}
